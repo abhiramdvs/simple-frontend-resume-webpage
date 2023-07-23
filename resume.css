@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+::-webkit-scrollbar{
+    display: none;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+ }
+
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #000000;
+}
+
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center; /* Center align the header content */
+    padding: 2rem;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column; /* Display the profile image below the name */
+    align-items: center;
+}
+
+.profile-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Single-column layout */
+.container {
+    display: flex;
+    flex-direction: column; /* Set to single column for all devices */
+}
+
+.container .details{
+    margin-top: 1rem;
+}
+
+.left-column, .right-column {
+    padding: 2rem;
+}
+
+/* Sections */
+section {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Links */
+section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Skills and Languages */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+li {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0.5rem 0.5rem -0.2rem;
+    border-radius: 20px;
+    width: 250px;
+}
+
+/* Contact Details */
+.details p {
+    font-size: 1.1rem;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    /* Adjust padding for better spacing on smaller devices */
+    .left-column, .right-column {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Adjust padding and width for skills and languages on mobile */
+    li {
+        width: auto;
+        margin: 0.5rem 0.2rem;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+/* Download section */
+.download-section {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
