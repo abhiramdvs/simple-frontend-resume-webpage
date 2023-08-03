@@ -34,7 +34,7 @@ To make your resume website accessible to others, you can deploy it on a web ser
 
 > **Demo**
 
-You can view a live demo of this resume website here - https://abhiramdvs.github.io/abhiramdvs/
+You can view a live demo of this resume website here - https://abhiramdvs.github.io/simple-frontend-resume-webpage/
 
 > **Acknowledgments**
 
